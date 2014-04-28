@@ -41,6 +41,7 @@ getHomeR = defaultLayout $ do
                     <span #trioutput>
 
     |]
+
     -- Similar to Hamlet, Yesod has Lucius for CSS, and Julius for Javascript.
     toWidget [lucius|
         body {
@@ -55,9 +56,11 @@ getHomeR = defaultLayout $ do
     |]
     toWidget [julius|
         function updateTri() {
-            $.getJSON("/tri/" + $("#triinput").val(), function (o) {
-                $("#trioutput").text(o.triangular);
-            });
+            $.getJSON("/tri/" + $("#triinput").val(),
+                function (o) {
+                    $("#trioutput").text(o.triangular);
+                }
+            );
         }
 
         $(function(){
