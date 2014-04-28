@@ -13,6 +13,4 @@ hidden-packages: ''
 version: 1
 extra-packages: ''
 ghc-args: []
-excluded-modules:
-- src/Handler/Fib.hs
-- src/Handler/Markdown.hs
+excluded-modules: []
