@@ -1,21 +1,5 @@
-This project is a combination of a working web application and a tutorial.
-The inline comments should guide you through an understanding of how this
-application works.
+This is a a sample Yesod application based on the tutorial provided by FP Complete.
 
-I recommend reading the modules in the following order:
+It returns the nth triangular number.
 
-* Foundation
-* Import
-* Handler.Home
-* Handler.Fib
-* Handler.Markdown
-* Main
-
-This application provides both a JSON API for two simple services (markdown processing
-and fibonacci number calculation), as well as a simplistic web frontend for accessing
-those services.
-
-Feel free to set the Main module as the target and run this application immediately to
-see what the result is. Then come back, read the code, experiment with some changes,
-and rerun the application. If at any point you want to undo your changes, use the "Git"
-top menu and select "Reset".
+It shows a website with AJAX, a JSON-based API, HTML templating, and all the other fun stuff you can do with web sites.

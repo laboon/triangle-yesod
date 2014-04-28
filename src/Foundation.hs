@@ -51,6 +51,5 @@ Please see those modules for more details.
 -}
 mkYesodData "App" [parseRoutes|
 /         HomeR     GET
-/markdown MarkdownR PUT
-/fib/#Int FibR      GET
+/tri/#Int TriR      GET
 |]
